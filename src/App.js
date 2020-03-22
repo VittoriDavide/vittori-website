@@ -7,7 +7,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
+          <div style={{flexDirection: "column", alignItems: 'center', display: "flex", marginBottom: 50}}>
           <p className="App-bio" >hi, i'm david vittori a passionate and creative mobile developer based in italy.
             i'm looking always for something cool and i love to help startups get an awesome app. <br/> <br/> just in case drop me a line.</p>
 
@@ -36,6 +36,7 @@ function App() {
             >
               Email
             </a>
+          </div>
           </div>
         </header>
       </div>
