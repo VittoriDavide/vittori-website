@@ -39,6 +39,10 @@ function App() {
           </div>
           </div>
         </header>
+
+        <div style={{position: 'absolute', bottom: 10, right: 10}}>
+          <a className="Policy-link" href={"https://www.iubenda.com/privacy-policy/87539577"}>Privacy policy</a>
+        </div>
       </div>
   );
 }
